@@ -10,9 +10,6 @@
 [submodule "bundle/tlib_vim"]
 	path = bundle/tlib_vim
 	url = https://github.com/tomtom/tlib_vim.git
-[submodule "/home/bradleyd/.vim/bundle/snipmate"]
-	path = /home/bradleyd/.vim/bundle/snipmate
-	url = https://github.com/garbas/vim-snipmate
 [submodule "bundle/c.vim"]
 	path = bundle/c.vim
 	url = git://github.com/vim-scripts/c.vim.git
@@ -40,3 +37,9 @@
 [submodule "bundle/vim-colorschemes"]
 	path = bundle/vim-colorschemes
 	url = git://github.com/flazz/vim-colorschemes.git
+[submodule "bundle/snipmate"]
+	path = bundle/snipmate
+	url = https://github.com/garbas/vim-snipmate
+[submodule "bundle/vim-ruby"]
+	path = bundle/vim-ruby
+	url = git://github.com/vim-ruby/vim-ruby.git
