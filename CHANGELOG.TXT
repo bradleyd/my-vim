@@ -1,3 +1,5 @@
+Added changelog.txt
+
 Added changelog
 
 updated README
