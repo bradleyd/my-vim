@@ -22,3 +22,6 @@
 [submodule "bundle/vim-notes"]
 	path = bundle/vim-notes
 	url = https://github.com/xolox/vim-notes.git
+[submodule "bundle/lusty_explorer"]
+	path = bundle/lusty_explorer
+	url = git://github.com/vim-scripts/LustyExplorer.git
