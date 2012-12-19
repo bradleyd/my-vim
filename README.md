@@ -1,6 +1,6 @@
 ## Installation:
 
-* git clone https://github.com/bradleyd/my-vim.git ~/.vim
+    git clone https://github.com/bradleyd/my-vim.git ~/.vim
 
 ## Create symlinks:
 
@@ -12,3 +12,7 @@
     cd ~/.vim
     git submodule init
     git submodule update
+
+## Upgrading all bundled plugins
+    
+   git submodule foreach git pull origin master
