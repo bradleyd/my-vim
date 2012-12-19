@@ -16,3 +16,10 @@
 ## Upgrading all bundled plugins
     
   `git submodule foreach git pull origin master`
+
+## Adding plugins
+ `cd ~/.vim
+  git submodule init
+  git submodule add git://github.com/foo/bar.git bundle/vim-foo
+  git commit -m 'Added vim-foo'
+  git push origin master`
