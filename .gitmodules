@@ -44,5 +44,5 @@
 	path = bundle/vim-ruby
 	url = git://github.com/vim-ruby/vim-ruby.git
 [submodule "vim-rspec"]
-	path = vim-rspec
+	path = bundle/vim-rspec
 	url = git://github.com/skwp/vim-rspec.git
