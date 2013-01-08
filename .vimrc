@@ -25,11 +25,22 @@ au FileType python setlocal tabstop=8 expandtab shiftwidth=4 softtabstop=4
 "autocmd BufRead *\.txt setlocal spell spelllang=en_us
 "
 ""ruby
-"autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete
-"autocmd FileType ruby,eruby let g:rubycomplete_buffer_loading = 1
-"autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
-"autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
+autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete
+autocmd FileType ruby,eruby let g:rubycomplete_buffer_loading = 1
+autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
+autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
 autocmd FileType ruby,eruby,yaml set ai sw=2 sts=2 et
+
+nmap <silent> <Leader>rcrr :call RunRubyCurrentFileConque()<CR>
+nmap <silent> <Leader>rcss :call RunRspecCurrentFileConque()<CR>
+nmap <silent> <Leader>rcll :call RunRspecCurrentLineConque()<CR>
+nmap <silent> <Leader>rccc :call RunCucumberCurrentFileConque()<CR>
+nmap <silent> <Leader>rccl :call RunCucumberCurrentLineConque()<CR>
+nmap <silent> <Leader>rcRR :call RunRakeConque()<CR>
+nmap <silent> <Leader>rcrl :call RunLastConqueCommand()<CR>
+
+nnoremap <silent> <C-s> :call RelatedSpecVOpen()<CR>
+nnoremap <silent> ,<C-s> :call RelatedSpecOpen()<CR>
 
 autocmd FileType make set noexpandtab
 nmap ,f :FufFileWithCurrentBufferDir<CR>
