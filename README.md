@@ -1,10 +1,14 @@
 ## Installation:
+    * Need to install `exuberant-ctags`
+    * Need to install `vim-gtk` or equivalent for 256 color schemes
+    `apt-get install exuberant-ctags vim-gtk`
 
+    #Now clone the repo
     git clone https://github.com/bradleyd/my-vim.git ~/.vim
 
 ## Create symlinks:
 
-    ln -s ~/.vim/vimrc ~/.vimrc
+    ln -s ~/.vim/.vimrc ~/.vimrc
     ln -s ~/.vim/gvimrc ~/.gvimrc
 
 ## Switch to the `~/.vim` directory, and fetch submodules:
