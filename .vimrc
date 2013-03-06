@@ -14,7 +14,7 @@ set softtabstop=2
 set t_Co=256
 
 set background=dark
-colorscheme wombat256
+colorscheme candy
 set number
 au FileType python setlocal tabstop=8 expandtab shiftwidth=4 softtabstop=4
 "autocmd BufRead *\.txt setlocal formatoptions=l
