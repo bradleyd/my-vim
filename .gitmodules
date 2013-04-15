@@ -61,3 +61,6 @@
 [submodule "bundle/vim-ruby-xmpfilter"]
 	path = bundle/vim-ruby-xmpfilter
 	url = https://github.com/t9md/vim-ruby-xmpfilter.git
+[submodule "bundle/vim-ruby-minitet"]
+	path = bundle/vim-ruby-minitet
+	url = https://github.com/sunaku/vim-ruby-minitest.git
