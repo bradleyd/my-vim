@@ -64,3 +64,6 @@
 [submodule "bundle/vim-ruby-minitet"]
 	path = bundle/vim-ruby-minitet
 	url = https://github.com/sunaku/vim-ruby-minitest.git
+[submodule "bundle/vim-snippets"]
+	path = bundle/vim-snippets
+	url = https://github.com/honza/vim-snippets.git
