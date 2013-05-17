@@ -4,7 +4,6 @@ filetype plugin indent on
 set nocp
 set title
 set hidden
-syntax on
 set showmatch
 set hls
 "set ts=2 sw=2
@@ -13,13 +12,16 @@ set shiftwidth=2
 set softtabstop=2
 set t_Co=256
 
-"let g:snippets_dir = "~/.vim/bundle/snipmate-snippets/snippets"
-set background=dark
-colorscheme candy
-set number
-
 " set autcomplete menu background color
 highlight Pmenu ctermbg=230 gui=bold
+highlight StatusLine ctermfg=blue ctermbg=yellow
+
+syntax on
+set background=dark
+colorscheme candy
+
+"let g:snippets_dir = "~/.vim/bundle/snipmate-snippets/snippets"
+set number
 
 " python
 au FileType python setlocal tabstop=8 expandtab shiftwidth=4 softtabstop=4
@@ -45,6 +47,8 @@ autocmd FileType ruby,eruby,yaml set ai sw=2 sts=2 et
 
 autocmd FileType make set noexpandtab
 
+" convienience keys
+map <Leader>cb :ConqueTermSplit bash<CR>
 "nmap ,f :FufFileWithCurrentBufferDir<CR>
 "nmap ,b :FufBuffer<CR>
 "nmap ,t :FufTaggedFile<CR>
@@ -64,3 +68,5 @@ imap <buffer> <F5> <Plug>(xmpfilter-run)
 nmap <buffer> <F4> <Plug>(xmpfilter-mark)
 xmap <buffer> <F4> <Plug>(xmpfilter-mark)
 imap <buffer> <F4> <Plug>(xmpfilter-mark)
+
+
