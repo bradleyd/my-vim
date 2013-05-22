@@ -49,6 +49,7 @@ autocmd FileType make set noexpandtab
 
 " convienience keys
 map <Leader>b :ConqueTermSplit bash<CR>
+map <Leader>a ggVG=2<C-o>
 "nmap ,f :FufFileWithCurrentBufferDir<CR>
 "nmap ,b :FufBuffer<CR>
 "nmap ,t :FufTaggedFile<CR>
