@@ -10,18 +10,22 @@
 [submodule "bundle/c.vim"]
 	path = bundle/c.vim
 	url = git://github.com/vim-scripts/c.vim.git
+        ignore = untracked
 [submodule "bundle/taglist.vim"]
 	path = bundle/taglist.vim
 	url = git://github.com/vim-scripts/taglist.vim.git
+  ignore = untracked
 [submodule "bundle/vim-notes"]
 	path = bundle/vim-notes
-	url = https://github.com/xolox/vim-notes.git
+        url = https://github.com/xolox/vim-notes.git
+        ignore = untracked
 [submodule "bundle/lusty_explorer"]
 	path = bundle/lusty_explorer
 	url = git://github.com/vim-scripts/LustyExplorer.git
 [submodule "bundle/ack.vim"]
 	path = bundle/ack.vim
 	url = git://github.com/mileszs/ack.vim.git
+        ignore = untracked
 [submodule "bundle/vim-rails"]
 	path = bundle/vim-rails
 	url = git://github.com/tpope/vim-rails.git
@@ -49,6 +53,7 @@
 [submodule "bundle/vim-ruby-conque"]
 	path = bundle/vim-ruby-conque
 	url = git://github.com/skwp/vim-ruby-conque.git
+  ignore = untracked
 [submodule "nerdcommenter"]
 	path = nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter.git
@@ -64,3 +69,6 @@
 [submodule "bundle/vim-snippets"]
 	path = bundle/vim-snippets
 	url = https://github.com/honza/vim-snippets.git
+[submodule "bundle/vim-misc"]
+	path = bundle/vim-misc
+	url = https://github.com/xolox/vim-misc.git

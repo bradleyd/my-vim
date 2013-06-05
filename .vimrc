@@ -59,7 +59,7 @@ set statusline+=%{exists('g:loaded_fugitive')?fugitive#statusline():''}
 
 " for note taking 
 let g:notes_suffix = '.bds'
-let g:notes_directory = '~/Dropbox/docs/notes'
+let g:notes_directories = ['~/Dropbox/docs/notes']
 
 " xmpfilter Terminal
 nmap <buffer> <F5> <Plug>(xmpfilter-run)
